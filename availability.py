@@ -36,9 +36,6 @@ class Airbnb:
         self.headers = headers
         self.session = requests.Session()
         self.session.headers.update(headers)
-        self.session.proxies.update(
-            {"https": "http://user-sp79229308-sessionduration-1:flaxtax100@au.smartproxy.com:30001",
-             "http": "http://user-sp79229308-sessionduration-1:flaxtax100@au.smartproxy.com:30001"})
 
     def create_url(self,listing = "41088166"):
         base_url = "https://www.airbnb.com.au/api/v3/PdpAvailabilityCalendar?"
