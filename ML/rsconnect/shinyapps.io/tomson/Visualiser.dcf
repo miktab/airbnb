@@ -1,0 +1,13 @@
+name: Visualiser
+title: Visualiser
+username:
+account: tomson
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4923864
+bundleId: 5162121
+url: https://tomson.shinyapps.io/Visualiser/
+when: 1634817261.01248
+lastSyncTime: 1634817261.01249
+asMultiple: FALSE
+asStatic: FALSE
